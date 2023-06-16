@@ -1,0 +1,41 @@
+
+body{
+    background-size: 105%;
+    background: url("pagebp.mp4") no-repeat;
+
+}
+
+.apple-tv-card-container{
+    width: 499px !important;
+    height: 600px;
+    left: 50px;
+    top: 200px;
+}
+
+.apple-tv-card-container>.apple-tv-card{
+    border-radius: 10px !important;
+}
+
+.content{
+    width: 499px;
+    height: 376px;
+    background: url("./bg.png") !important;
+    background-size: contain !important;
+}
+
+.parallax-content > div{
+    width: 300px;
+    height: 376px;
+    top: -20px;
+    position: relative;
+    background: url("top.png");
+    background-size: contain !important;
+}
+
+.cardtext{
+    top: 250px;
+    position: relative;
+    font-size: 100px;
+    font-family: comic-mono;
+    padding: 0 50px;
+}
